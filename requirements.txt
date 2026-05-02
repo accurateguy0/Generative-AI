@@ -1,0 +1,8 @@
+pandas
+langchain-google-genai
+langgraph
+rich
+fastapi
+uvicorn
+python-dotenv
+requests
