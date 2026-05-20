@@ -80,9 +80,9 @@ A collection of utility scripts for the standard ML lifecycle.
 
 It is recommended to use the provided venv structure:
 
-codeBash
 
-```
+
+```codeBash
 # Activate the environment
 source venv/bin/activate  # Linux/macOS
 .\venv\Scripts\activate   # Windows
@@ -95,9 +95,8 @@ pip install -r requirements.txt
 
 To ensure a consistent environment across all modules:
 
-codeBash
 
-```
+```codeBash
 docker build -t gen-ai-hub .
 docker run -it gen-ai-hub
 ```
